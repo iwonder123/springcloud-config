@@ -14,4 +14,6 @@ eureka:
       defaultZone: http://localhost:8671/eureka/
 server:
   port: 9001
-name:xiaoming
+
+
+ddsfname:xiaoming
