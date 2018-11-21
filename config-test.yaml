@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: configa
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/iwonder123/springcloud-config.git
+          username: iwonder123
+          password: 159/*-+aa
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8671/eureka/
+server:
+  port: 9001
