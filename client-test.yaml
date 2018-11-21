@@ -1,4 +1,4 @@
 
-env: testt
+env: test2
 server:
   port: 9501
