@@ -1,0 +1,28 @@
+{
+    "eureka": {
+        "client": {
+            "service-url": {
+                "defaultZone": "http://localhost:8671/eureka/"
+            }
+        }
+    },
+    "server": {
+        "port": 9001
+    },
+    "spring": {
+        "application": {
+            "name": "configa"
+        },
+        "cloud": {
+            "config": {
+                "server": {
+                    "git": {
+                        "password": "159/*-+aa",
+                        "uri": "https://github.com/iwonder123/springcloud-config.git",
+                        "username": "iwonder123"
+                    }
+                }
+            }
+        }
+    }
+}
