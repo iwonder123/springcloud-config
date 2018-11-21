@@ -3,3 +3,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:8671/eureka/
 env: test
+server:
+  port: 10001
